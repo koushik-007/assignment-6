@@ -20,7 +20,8 @@
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Hard Rock Solution">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="images/toggler-icon.svg" alt="">
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -32,7 +33,8 @@
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="dropdown-item" href="#">Action 1</a>
                             <a class="dropdown-item" href="#">Action 2</a>
@@ -53,18 +55,44 @@
             <!-- === Simple results === -->
             <div class="d-flex justify-content-center">
                 <div class="">
-                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p>
-                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p><p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p>
-                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p><p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p>
-                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p><p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p>
-                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p><p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p>
-                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn">Get Lyrics</button></p>
+
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
+                    <p class="author lead"><strong class="songTitle">Purple Noon</strong> Album by <span
+                            class="artistName">Washed Out</span> <button class="btn btn-success getLyricsBtn"><a
+                                href="#lyrics">Get Lyrics</a></button></p>
                 </div>
             </div>
             <!-- Single Lyrics -->
             <div class="single-lyrics text-center">
                 <button class="btn go-back">&lsaquo;</button>
-                <h2 class="text-success mb-4"> <span id="lyrics-artist">Pentatonix </span> - <span id="lyrics-title">Na Na Na</span></h2>
+                <h2 class="text-success mb-4"> <span id="lyrics-artist">Pentatonix </span> - <span id="lyrics-title">Na
+                        Na Na</span></h2>
                 <pre id="lyrics" class="lyric text-white">
     Wont go whistling like the wind blows,
     Looking out my window,
@@ -166,47 +194,51 @@
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name">Purple Noon</h3>
-                        <p class="author lead">Album by <span>Washed Out</span></p>
+                        <h3 class="lyrics-name songTitle">Purple Noon</h3>
+                        <p class="author lead">Album by <span class="artistName">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button class="btn btn-success getLyricsBtn">Get Lyrics</button>
                     </div>
                 </div>
+                <pre class="text-white" id="bonusLyrics"></pre>
                 <!--  single result -->
 
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name">Purple Noon</h3>
-                        <p class="author lead">Album by <span>Washed Out</span></p>
+                        <h3 class="lyrics-name songTitle">Purple Noon</h3>
+                        <p class="author lead">Album by <span class="artistName">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button class="btn btn-success getLyricsBtn">Get Lyrics</button>
                     </div>
                 </div>
+                <pre class="text-white" id="bonusLyricsOne"></pre>
                 <!-- ./ single result -->
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name">Purple Noon</h3>
-                        <p class="author lead">Album by <span>Washed Out</span></p>
+                        <h3 class="lyrics-name songTitle">Purple Noon</h3>
+                        <p class="author lead">Album by <span class="artistName">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button class="btn btn-success getLyricsBtn">Get Lyrics</button>
                     </div>
                 </div>
+                <pre class="text-white" id="bonusLyricsTwo"></pre>
                 <!-- ./ single result -->
                 <!-- single result -->
                 <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name">Purple Noon</h3>
-                        <p class="author lead">Album by <span>Washed Out</span></p>
+                        <h3 class="lyrics-name songTitle">Purple Noon</h3>
+                        <p class="author lead">Album by <span class="artistName">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button class="btn btn-success getLyricsBtn">Get Lyrics</button>
                     </div>
                 </div>
+                <pre class="text-white" id="bonusLyricsThree"></pre>
                 <!-- ./ single result -->
             </div>
 
